@@ -1,23 +1,25 @@
+"""
+字符串基本单位和基本元
+"""
 basic_strings = ["Open","High","Low","Close",
                 "Volume","Avg","Status",
-                "Pb","Reason","Value","Amount","Rate",
-                "I000010","I000016","I000019","I000021",
-                 "I000160","I000300","I000905","I000906",
-                 "I399903","I399904","I930649","I930660",
-                 "I930661","IH00160","Weight","O1E1","O1E2","O1E3","O1O2"
+                "Reason","Value","Amount","Rate",
+                 "Weight","O1E1","O1E2","O1E3","O1O2"
                 ]
 
 basic_factors = ["Open","High","Low","Close", "PreClose",
                  "AdjOpen","AdjHigh","AdjLow","AdjClose","AdjPreClose",
                  "Volume","Amount","Avg","HaltStatus","StStatus",
-                 "AdjPb","AdjReason","MarketValue","CirculationMarketValue","DealAmount",
+                 "MarketValue","CirculationMarketValue","DealAmount",
+                 "BenchmarkIndexClose",
                  "IcBenchmarkClose","IcBenchmarkOpen","IfBenchmarkOpen", "IfBenchmarkClose",
                  "IhBenchmarkClose","IhBenchmarkOpen",
                  "TurnoverRate","TurnoverValue","TurnoverVolume",
                  "I000010","I000016","I000019","I000021",
                  "I000160","I000300","I000905","I000906",
                  "I399903","I399904","I930649","I930660",
-                 "I930661","IH00160","Ih50Weight","Csi300Weight","Ic500Weight",
+                 "I930661","IH00160",
+                 "Ih50Weight","Csi300Weight","Ic500Weight",
                  "O1E1","O1E2","O1E3","O1O2"]
 
 
@@ -135,14 +137,6 @@ def HaltStatus():
 
 def StStatus():
     return "StStatus()"
-
-
-def AdjPb():
-    return "AdjPb()"
-
-
-def AdjReason():
-    return "AdjReason()"
 
 
 def MarketValue():
